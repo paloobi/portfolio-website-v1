@@ -1,47 +1,80 @@
-h1 {
-	font-size: 260%;
-}
+/* Welcome to my stylesheet!
+You might notice that I'm pretty fond of flexbox.
+Feel free to reach out and let me know what you think of my code!
+I'm always open to feedback :) */
 
-.header {
-	border-bottom: 2px black solid;
-}
-
-.section {
-	border-bottom: 2px darkgray solid;
-}
-
-ul {
-	line-height: 160%;
-}
-
-#skills {
-	padding-top: 2em;
-}
-
-#education {
-	padding-top: 1em;
-}
-
-#interests {
-	padding-top: .75em;
-}
-
-.job p {
-	font-style: italic;
-}
+/* ------- boilerplate --- */
 
 body {
-	font-family: 'Arimo', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-h1 {
-	font-family: 'Quicksand', sans-serif;
+
+/* ------- HEADER -------- */
+
+header {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  z-index: -100;
 }
 
-body {
-	padding-bottom: 2em;
+
+/* ------- NAVBAR -------- */
+
+nav {
+  width: 100%;
+  height: 100%;
 }
 
-.col-md-1 img {
-	padding: 1em;
+nav .top, nav .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav .bottom {
+  align-items: flex-end;
+  bottom: 0;
+}
+
+nav .top-left {
+  order: 1;
+}
+
+nav .top-right {
+  order: 2;
+}
+
+nav .bottom-left {
+  order: 3;
+}
+
+nav .bottom-right {
+  order: 4;
+}
+
+/* ------- MAIN ---------- */
+
+
+/* ------- FOOTER -------- */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 36%;
+  /*position: fixed;*/
+}
+
+footer p {
+}
+
+footer img {
+  height: 20px;
 }
