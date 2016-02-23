@@ -7,6 +7,7 @@
 		<title>Alexandra Polubiec | Developer</title>
 		<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Quicksand' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<script src="node_modules/angular/angular.min.js"></script>
 		<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 		<script src="js/app.js"></script>
@@ -27,24 +28,32 @@
 	<body ng-app="Portfolio">
 		<header>
 			<h1>Alexandra Polubiec</h1>
-			<small>Technical Writer | Web Developer | Programmer</small>
+			<small>Full-Stack JavaScript Web Developer</small>
 		</header>
 
 		<nav>
 			<div class="top">
-				<div class="left"><a href="" ui-sref="skills"><p>What I Do</p></a></div>
-				<div class="right"><a href="" ui-sref="projects"><p>What I've Done</p></a></div>
+				<div class="left circle"><a href="" ui-sref="skills"><p>What I Do</p></a></div>
+				<div class="right circle"><a href="" ui-sref="projects"><p>What I've Done</p></a></div>
 			</div>
 			<div class="bottom">
-				<div class="left"><a href="" ui-sref="about"><p>Who I Am</p></a></div>
-				<div class="right"><a href="" ui-sref="resume"><p>Where I've Been</p></a></div>
+				<div class="left circle"><a href="" ui-sref="about"><p>Who I Am</p></a></div>
+				<div class="contact"><p>Say Hi:
+					<a href="mailto:alex@polubiec.com"><i class="fa fa-envelope"></i></a>
+					<a href="http://www.github.com/paloobi"><i class="fa fa-github"></i></a>
+					<a href="http://www.linkedin.com/in/apolubiec"><i class="fa fa-linkedin"></i></a>
+					<a href="http://paloobi.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+					<a href="http://www.twitter.com/AlexPaloobi"><i class="fa fa-twitter"></i></a>
+				</p></div>
+
+				<div class="right circle"><a href="" ui-sref="resume"><p>Where I've Been</p></a></div>
 			</div>
 		</nav>
 
 		<ui-view></ui-view>
 
 		<footer>
-			<p>Say Hi: <a href="mailto:alex@polubiec.com"><img src="img/email.png" alt="email icon"></a> <a href="http://www.linkedin.com/in/apolubiec"><img src="img/linkedin.png" alt="linkedin icon"></a> <a href="http://www.github.com/paloobi"><img src="img/github.png" alt="github icon"></a>
+
 		</footer>
 
 	</body>
