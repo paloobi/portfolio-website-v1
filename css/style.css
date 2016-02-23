@@ -22,12 +22,14 @@ header {
   z-index: -100;
 }
 
-
 /* ------- NAVBAR -------- */
 
 nav {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 nav .top, nav .bottom {
@@ -37,7 +39,12 @@ nav .top, nav .bottom {
   flex-wrap: wrap;
 }
 
+nav .top {
+  order: 1;
+}
+
 nav .bottom {
+  order: 2;
   align-items: flex-end;
   bottom: 0;
 }
