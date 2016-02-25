@@ -1,9 +1,4 @@
-/* Welcome to my stylesheet!
-You might notice that I'm pretty fond of flexbox.
-Feel free to reach out and let me know what you think of my code!
-I'm always open to feedback :) */
-
-/* ------- boilerplate --- */
+/* ------- boilerplate and fonts --- */
 
 body {
   width: 100%;
@@ -11,11 +6,17 @@ body {
   margin: 0;
 }
 
-p, small {
-  font-family: 'Quicksand', sans-serif;
+p, li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 80%;
 }
 
-h2, h3 {
+.contact p, .circle p, small {
+  font-family: 'Quicksand', cursive;
+}
+
+h2, h3, h4 {
   font-family: 'Quicksand', cursive;
   font-weight: 700;
 }
@@ -38,21 +39,30 @@ header {
 
 h1 {
   font-family: 'Pompiere', cursive;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 0;
 }
+
+header hr {
+  width: 24%;
+}
+
+
+small {
+  font-size: 14px;
+}
+
 
 /* ------- NAVBAR -------- */
 
 nav {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 nav .top, nav .bottom {
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -60,8 +70,8 @@ nav .top, nav .bottom {
 }
 
 nav .top {
-  order: 1;
   margin-top: 20px;
+  position: fixed;
 }
 
 nav .bottom {
@@ -69,6 +79,7 @@ nav .bottom {
   align-items: flex-end;
   bottom: 0;
   margin-bottom: 20px;
+  position: fixed;
 }
 
 nav .left {
@@ -92,6 +103,10 @@ nav .circle p {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* contact footer */
 
 .contact p {
@@ -104,3 +119,13 @@ nav .circle p {
 
 /* ------- MAIN ---------- */
 
+.main {
+    background-color: gray;
+    width: 70%;
+    position: relative;
+    margin-top: 120px;
+    height: 70vh;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}

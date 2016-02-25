@@ -8,8 +8,8 @@
 
 		<title>Alexandra Polubiec | Developer</title>
 
-		<link href='https://fonts.googleapis.com/css?family=Quicksand|Pompiere' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href-"node_modules/normalize.css/nromalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700|Pompiere' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href-"node_modules/normalize.css/normalize.css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -26,22 +26,26 @@
 		<script src="js/resume/resume.controller.js"></script>
 		<script src="js/skills/skills.state.js"></script>
 		<!-- <script src="js/skills/skills.controller.js"></script> -->
-		<base href="/">
-
 	</head>
 
 
 	<body ng-app="Portfolio">
 		<header>
 			<h1>Alexandra Polubiec</h1>
+			<hr noshade>
 			<small>Full-Stack JavaScript Web Developer</small>
 		</header>
 
 		<nav>
 			<div class="top">
-				<a href="" ui-sref="skills"><button class="left circle"><p>What<br>I Do</p></button></a>
-				<a href="" ui-sref="projects"><button class="right circle"><p>What<br>I've Done</p></button></a>
+				<a ui-sref="skills"><button class="left circle"><p>What<br>I Do</p></button></a>
+				<a ui-sref="projects"><button class="right circle"><p>What<br>I've Done</p></button></a>
 			</div>
+		</nav>
+
+		<ui-view></ui-view>
+
+		<nav>
 			<div class="bottom">
 				<a href="" ui-sref="about"><button class="left circle"><p>Who<br>I Am</p></button></a>
 				<div class="contact"><p>Say Hi:
@@ -56,7 +60,6 @@
 			</div>
 		</nav>
 
-		<ui-view></ui-view>
 
 		<footer>
 

@@ -1,16 +1,20 @@
-<div class="section-header">
-  <h2>Projects</h2>
-</div>
+<div class="main">
 
-<div class="section-content">
+  <div class="header">
+    <h2>What I've Done</h2>
+  </div>
 
-  <div class="project" ng-repeat="project in projects">
-    <a href="{{ project.link }}"><h3>{{ project.name }}</h3></a>
-    <p>{{ project.date }}</p>
-    <p><a href="{{ project.repo }}">[source code]</a></p>
-    <ul>
-      <li ng-repeat="feature in project.features">{{ feature }}</li>
-    </ul>
+  <div class="content">
+
+    <div class="project" ng-repeat="project in projects">
+      <a href="{{ project.link }}"><h3>{{ project.name }}</h3></a>
+      <p>{{ project.date }}</p>
+      <p><a href="{{ project.repo }}">[source code]</a></p>
+      <ul>
+        <li ng-repeat="feature in project.features">{{ feature }}</li>
+      </ul>
+    </div>
+
   </div>
 
 </div>
