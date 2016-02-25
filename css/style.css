@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
 
 /* ------- HEADER -------- */
 
@@ -20,6 +24,10 @@ header {
   margin: auto;
   width: 100%;
   z-index: -100;
+}
+
+h1 {
+  font-family: 'Nixie One', cursive;
 }
 
 /* ------- NAVBAR -------- */
@@ -41,40 +49,50 @@ nav .top, nav .bottom {
 
 nav .top {
   order: 1;
+  margin-top: 20px;
 }
 
 nav .bottom {
   order: 2;
   align-items: flex-end;
   bottom: 0;
+  margin-bottom: 20px;
 }
 
-nav .top-left {
-  order: 1;
+nav .left {
+  margin-left: 20px;
 }
 
-nav .top-right {
-  order: 2;
-}
-
-nav .bottom-left {
-  order: 3;
-}
-
-nav .bottom-right {
-  order: 4;
+nav .right {
+  margin-right: 20px;
 }
 
 nav .circle {
   background-color: gray;
   border-radius: 100%;
-  height: 80px;
-  width: 80px;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+nav .circle p {
+  margin-top: 32px;
+  font-size: 20px;
 }
 
 nav .circle a {
   text-decoration: none;
   color: white;
+}
+
+/* contact footer */
+
+.contact p {
+  font-size: 20px;
+}
+
+.contact a {
+  color: black;
 }
 
 /* ------- MAIN ---------- */
