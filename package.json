@@ -1,0 +1,23 @@
+{
+  "name": "paloobi.github.io",
+  "version": "1.0.0",
+  "description": "paloobi.github.io =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paloobi/paloobi.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paloobi/paloobi.github.io/issues"
+  },
+  "homepage": "https://github.com/paloobi/paloobi.github.io#readme",
+  "dependencies": {
+    "bootswatch": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
