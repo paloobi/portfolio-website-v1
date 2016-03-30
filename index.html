@@ -9,15 +9,13 @@
 		<title>Alexandra Polubiec | Developer</title>
 
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700|Pompiere' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href-"node_modules/normalize.css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-		<script src="node_modules/angular/angular.min.js"></script>
-		<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.min.js"></script>
 		<script src="js/app.js"></script>
 		<script src="js/about/about.state.js"></script>
-		<!-- <script src="js/about.controller.js"></script> -->
 		<script src="js/projects/projects.state.js"></script>
 		<script src="js/projects/projects.factory.js"></script>
 		<script src="js/projects/projects.controller.js"></script>
@@ -25,45 +23,29 @@
 		<script src="js/resume/resume.factory.js"></script>
 		<script src="js/resume/resume.controller.js"></script>
 		<script src="js/skills/skills.state.js"></script>
-		<!-- <script src="js/skills/skills.controller.js"></script> -->
 	</head>
 
-
 	<body ng-app="Portfolio">
-		<header>
-			<h1>Alexandra Polubiec</h1>
-			<hr noshade>
-			<small>Full-Stack JavaScript Web Developer</small>
-		</header>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/" ui-sref="about" ui-sref-active="active">About Me</a></li>
+			<li><a href="" ui-sref="projects" ui-sref-active="active">Projects</a></li>
+			<li><a href="" ui-sref="resume" ui-sref-active="active">Experience</a></li>
+		</ul>
+		</div>
+	</header>
 
-		<nav>
-			<div class="top">
-				<a ui-sref="skills"><button class="left circle skills"><p>What<br>I Do</p></button></a>
-				<a ui-sref="projects"><button class="right circle projects"><p>What<br>I've Done</p></button></a>
-			</div>
-		</nav>
-
-		<ui-view></ui-view>
-
-		<nav>
-			<div class="bottom">
-				<a href="" ui-sref="about"><button class="left circle about"><p>Who<br>I Am</p></button></a>
-				<div class="contact"><p>Say Hi:
-					<a href="mailto:alex@polubiec.com"><i class="fa fa-envelope"></i></a>
-					<a href="http://www.github.com/paloobi"><i class="fa fa-github"></i></a>
-					<a href="http://www.linkedin.com/in/apolubiec"><i class="fa fa-linkedin"></i></a>
-					<a href="http://paloobi.tumblr.com/"><i class="fa fa-tumblr"></i></a>
-					<a href="http://www.twitter.com/AlexPaloobi"><i class="fa fa-twitter"></i></a>
-				</p></div>
-
-				<a href="" ui-sref="resume"><button class="right circle resume"><p>Where<br>I've Been</p></button></a>
-			</div>
-		</nav>
-
-
-		<footer>
-
-		</footer>
+	<ui-view></ui-view>
+	
+	<footer class="navbar navbar-static-bottom navbar-default">
+			<div class="contact"><p>Say Hi:
+				<a href="mailto:alex@polubiec.com"><i class="fa fa-envelope"></i></a>
+				<a href="http://www.github.com/paloobi"><i class="fa fa-github"></i></a>
+				<a href="http://www.linkedin.com/in/apolubiec"><i class="fa fa-linkedin"></i></a>
+				<a href="http://paloobi.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+				<a href="http://www.twitter.com/AlexPaloobi"><i class="fa fa-twitter"></i></a>
+			</p></div>
+	</footer>
 
 	</body>
 </html>

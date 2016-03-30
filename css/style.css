@@ -9,177 +9,18 @@ body {
 p, li {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 80%;
 }
 
 .contact p, .circle p, small {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
+.navbar h1 {
+  color: white;
+}
+.navbar small {
+  color: white;
+}
 h2, h3, h4 {
-  font-family: 'Quicksand', cursive;
-  font-weight: 700;
-}
-
-nav button {
-  border: none;
-  box-shadow: none;
-}
-
-
-/* ------- HEADER -------- */
-
-header {
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  width: 100%;
-  z-index: -100;
-}
-
-h1 {
-  font-family: 'Pompiere', cursive;
-  font-size: 40px;
-  margin-bottom: 0;
-}
-
-header hr {
-  width: 24%;
-}
-
-
-small {
-  font-size: 14px;
-}
-
-
-/* ------- NAVBAR -------- */
-
-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-nav .top, nav .bottom {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-nav .top {
-  margin-top: 20px;
-  position: fixed;
-}
-
-nav .bottom {
-  order: 2;
-  align-items: flex-end;
-  bottom: 0;
-  margin-bottom: 20px;
-  position: fixed;
-}
-
-nav .left {
-  margin-left: 20px;
-}
-
-nav .right {
-  margin-right: 20px;
-}
-
-nav .circle {
-  border-radius: 100%;
-  height: 120px;
-  width: 120px;
-  text-align: center;
-}
-
-nav .circle p {
-  font-size: 20px;
-  color: white;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-/* contact footer */
-
-.contact p {
-  font-size: 20px;
-}
-
-.contact a {
-  color: black;
-}
-
-/* ------- MAIN ---------- */
-
-.main {
-    position: relative;
-    margin-top: 120px;
-    height: 70vh;
-    overflow: scroll;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 6px;
-}
-
-h2 {
-  color: white;
-}
-
-@media screen and (min-width:1051px) {
-  .main {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1050px) and (min-width: 801px) {
-  .main {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .main {
-    width: 90%;
-  }
-}
-
-/* ----- Colors ------ */
-
-.skills {
-  background-color: #2E268D;
-}
-
-.skills .content { 
-  background-color: #6C61EF;
-}
-
-.projects {
-  background-color: #FF5C00;
-}
-
-.projects .content {
-  background-color: #FF923C;
-}
-
-.about {
-  background-color: #6F8D01;
-}
-
-.about .content {
-  background-color: #B3E346;
-}
-
-.resume {
-  background-color: #1E63A7;
-}
-
-.resume .content {
-  background-color: #3AA6FA;
+  font-family: 'Quicksand', sans-serif;
 }
