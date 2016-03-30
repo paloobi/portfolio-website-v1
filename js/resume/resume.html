@@ -1,25 +1,25 @@
-<div class="main resume">
+<div class="main resume container">
 
-  <div class="header">
-    <h2>Where I've Been</h2>
+  <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Places I've Been</h1>
+    </div>
   </div>
 
-  <div class="content">
+  <div class="experience">
 
-    <div class="experience">
+    <h2>Work Experience</h2>
 
-      <h3>Work Experience</h3>
-
-      <div class="job" ng-repeat="job in jobs">
-        <h4>{{ job.company }}</h4>
-        <p>{{ job.title }}, {{ job.date }} </p>
-        <ul>
-          <li ng-repeat="detail in job.details">{{ detail }}</li>
-        </ul>
-
-      </div>
+    <div class="job" ng-repeat="job in jobs">
+      <h4>{{ job.company }}</h4>
+      <p>{{ job.title }}, {{ job.date }} </p>
+      <ul>
+        <li ng-repeat="detail in job.details">{{ detail }}</li>
+      </ul>
 
     </div>
+
+  </div>
 
     <div class="education">
       

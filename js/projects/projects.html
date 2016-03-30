@@ -1,20 +1,31 @@
-<div class="main projects">
+<div class="main projects container">
 
-  <div class="header">
-    <h2>What I've Done</h2>
+  <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Recent Projects</h1>
+    </div>
   </div>
-
-  <div class="content">
-
-    <div class="project" ng-repeat="project in projects">
-      <a href="{{ project.link }}"><h3>{{ project.name }}</h3></a>
-      <p>{{ project.date }}</p>
-      <p><a href="{{ project.repo }}">[source code]</a></p>
-      <ul>
-        <li ng-repeat="feature in project.features">{{ feature }}</li>
-      </ul>
+  
+  <div ng-repeat="project in projects">
+    <div class="row">
+        <div class="col-md-7">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+            </a>
+        </div>
+        <div class="col-md-5">
+            <h3>{{ project.name }}</h3>
+            <h4>{{ project.subheading }}</h4>
+            <ul>
+              <li ng-repeat="feature in project.features">{{ feature }}</li>
+            </ul>
+            <a ng-show="project.link" class="btn btn-primary" href="{{ project.link }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a class="btn btn-primary" href="{{ project.repo }}">View Source <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+     
     </div>
 
-  </div>
+    <hr>
 
+  </div>
 </div>
