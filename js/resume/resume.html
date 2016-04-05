@@ -27,7 +27,7 @@
 
       <div class="school" ng-repeat="school in education">
         <h4>{{ school.name }}</h4>
-        <p><strong>{{ school.focus }}</strong><span ng-show="school.degree">({{school.degree}})</span> - {{ school.date }}</p>
+        <p>{{ school.focus }}<span ng-show="school.degree">, {{school.degree}}</span> ({{ school.date }})</p>
         <p>{{ school.description }}</p>
       </div>
       
