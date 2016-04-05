@@ -1,6 +1,6 @@
-app.config(function($stateProvider, rootDir){
+app.config(function($stateProvider){
   $stateProvider.state('skills', {
     url: '/skills',
-    templateUrl: rootDir + '/js/skills/skills.html'
+    templateUrl: '/js/skills/skills.html'
   })
 })
