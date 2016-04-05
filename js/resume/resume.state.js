@@ -1,4 +1,4 @@
-app.config(function($stateProvider, rootDir){
+app.config(function($stateProvider){
   $stateProvider.state('resume', {
     url: '/resume',
     templateUrl: '/js/resume/resume.html',
