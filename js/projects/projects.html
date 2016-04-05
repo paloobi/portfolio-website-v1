@@ -1,0 +1,32 @@
+<div class="main projects container">
+
+  <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Recent Projects</h1>
+    </div>
+  </div>
+  
+  <div ng-repeat="project in projects | displayObject">
+    <div class="row">
+        <div class="col-md-7">
+            <a href="#">
+                <img class="img-responsive" src="img/{{project.img}}" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-5">
+            <h3>{{ project.name }} <small>({{project.date}})</small></h3>
+            <h4>{{ project.subheading }}</h4>
+            <ul>
+              <li ng-repeat="feature in project.features">{{ feature }}</li>
+            </ul>
+            <a class="btn btn-primary" href="{{ project.repo }}">View Source <span class="fa fa-github"></span></a>
+            <a ng-show="project.link" class="btn btn-primary" href="{{ project.link }}">View Project <span class="fa fa-external-link"></span></a>
+            <a ng-show="project.demo" class="btn btn-primary" href="{{ project.demo }}">Watch Demo <span class="fa fa-video-camera"></span></a>
+        </div>
+     
+    </div>
+
+    <hr/>
+
+  </div>
+</div>

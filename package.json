@@ -1,0 +1,27 @@
+{
+  "name": "paloobi.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paloobi/paloobi.github.io.git"
+  },
+  "author": "Alexandra Polubiec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paloobi/paloobi.github.io/issues"
+  },
+  "homepage": "https://github.com/paloobi/paloobi.github.io#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootswatch": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {}
+}

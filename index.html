@@ -1,159 +1,51 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
+		
 		<meta charset="utf-8">
+
+		<title>Alexandra Polubiec | Web Developer</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700|Pompiere' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Quicksand' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<title>Alex Polubiec - Technical Writer | Web Developer | Programmer</title>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/about/about.state.js"></script>
+		<script src="js/projects/projects.state.js"></script>
+		<script src="js/projects/projects.factory.js"></script>
+		<script src="js/projects/projects.controller.js"></script>
+		<script src="js/resume/resume.state.js"></script>
+		<script src="js/resume/resume.factory.js"></script>
+		<script src="js/resume/resume.controller.js"></script>
+		<script src="js/skills/skills.state.js"></script>
 	</head>
-	<body>
-		<div class="container">
-			<div class="row header">	
-				<div class="col-md-9">
-					<h1>Alex Polubiec</br><small>Technical Writer | Web Developer | Programmer</small></h1>
-				</div>
-				<div class="col-md-1">
-					<a href="mailto:alex@polubiec.com"><img src="img/email.png" alt="email icon"></a>
-				</div>
-				<div class="col-md-1">
-					<a href="http://www.linkedin.com/in/apolubiec"><img src="img/linkedin.png" alt="linkedin icon"></a>
-				</div>
-				<div class="col-md-1">
-					<a href="http://www.github.com/paloobi"><img src="img/github.png" alt="github icon"></a>
-				</div>
-			</div>
-			<div class="row section">
-				<div class="col-md-12">
-					<h3>Skills</h3>
-				</div>
-			</div>
-			<div class="row" id="skills">
-        <div class="col-md-4">
-          <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>HTML/CSS</li>
-            <li>Git/GitHub</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Web Development</li>
-            <li>Responsive Web Design</li>
-            <li>Tools Development</li>
-            <li>Technical Documentation</li>
-          </ul> 
-        </div>
-				<div class="col-md-4">
-					<ul>
-						<li>Network Technology</li>
-            <li>Web Deployment</li>
-            <li>Server Load Balancing</li>
-						<li>Web Security</li>
-					</ul>
-				</div>
 
-			</div>
-
-			<div class="row section">
-
-				<div class="col-md-12">
-					<h3>Projects</h3>
-				</div>
-			</div>
-			<div class="row projects">
-
-        <div class="col-md-4">
-          <h4>Guessing Game</h4>
-          <p>Dec 2015</p>
-          <p><a href="https://github.com/paloobi/guessing-game">[source code]</a></p>
-          <ul>
-            <li>Game - user tries to guess the number</li>
-            <li>Features include: hints, new game, reset</li>
-            <li>Static JavaScript, HTML & CSS</li>
-          </ul>
-        </div>
-
-				<div class="col-md-4">
-					<h4>Arcade Game Clone</h4>
-					<p>Oct 2015</p>
-					<p><a href="https://github.com/paloobi/frontend-nanodegree-arcade-game">[source code]</a></p>
-					<ul>
-						<li>Simple arcade game, Frogger clone</li>
-						<li>Created using object-oriented JavaScript & HTML5 Canvas</li>
-						<li>ame assets and engine provided by Udacity.</li>
-					</ul>
-				</div>
-
-				<div class="col-md-4">
-					<h4>Weather App</h4>
-					<p>Aug 2014</p>
-					<p><a href="https://github.com/paloobi/weatherapp">[source code]</a></p>
-					<ul>
-						<li>Full-stack web application displays weather forecast using GET requests to an API</li>
-    				<li>Ruby, Sinatra, HTML/CSS, JavaScript, Weatherman Ruby Gem</li>
-					</ul>
-				</div>
-
-			</div>
-			<div class="row section">
-				<div class="col-md-12">
-					<h3>Experience</h3>
-				</div>
-			</div>
-			<div class="row job">
-				<div class="col-md-12">
-					<h4>Shape Security</h4>
-					<p>Senior Technical Writer, 2015-present</p>
-					<ul>
-						<li>Translate PDF documentation into single-sourced HTML and PDF docs using Sphinx documentation tool</li>
-						<li>Create and maintain custom Python build script for the Technical Documentation Library</li>
-						<li>Work with engineering team to create automated documentation</li>
-						<li>Collaborate with engineering, support, and product teams to provide accurate documentation for the ShapeShifter Botwall</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row job">
-				<div class="col-md-12">
-					<h4>A10 Networks</h4>
-					<p>Senior Technical Writer, 2014-2015</p>
-					<ul>
-						<li>Authored user guide for RESTful API.</li>
-						<li>Worked with automation team to deliver new automated API Reference using Sphinx.</li>
-						<li>Provided solution for transitioning from PDF to HTML documentation.</li>
-					</ul>
-					<p>Technical Writer, 2013-2014</p>
-					<ul>
-						<li>Implemented new context-sensitive help system using FrameMaker HTML output, with custom CSS and JavaScript topic mapping, while managing the GUI documentation for a major release.</li>
-						<li>Restructured and managed the System Administration and Configuration guide for a major release.</li>
-						<li>Restructured and improved the reference material for proprietary, Tcl-based scripting language, working in collaboration with subject matter experts across departments.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row section">
-				<div class="col-md-12">
-					<h3>Education</h3>
-				</div>
-			</div>
-			<div class="row" id="education">
-				<div class="col-md-12">
-					<p><b>Udacity</b>, Nanodegree in Front-End Web Development, in progress</p>
-					<p><b>MITx on edX</b>, 6.00.1x Introduction to Computer Science and Programming with Python, 2014</p>	
-					<p><b>Skillcrush</b>, Web Development Blueprint, 2014</p>
-					<p><b>Bennington College</b>, Bachelor of Arts in Drama and Music, 2011</p>
-				</div>
-			</div>
-			<div class="row section">
-				<div class="col-md-12">
-					<h3>Interests</h3>
-				</div>
-			</div>
-			<div class="row" id="interests">
-				<div class="col-md-12">
-					<p>Euro-style board games, piano, singing, video games, and learning new things</p>
-				</div>
-			</div>
+	<body ng-app="Portfolio">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-brand">Alexandra Polubiec</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="" ui-sref="about" ui-sref-active="active">About Me</a></li>
+				<li><a href="" ui-sref="projects" ui-sref-active="active">Projects</a></li>
+				<li><a href="" ui-sref="resume" ui-sref-active="active">Experience</a></li>
+			</ul>
 		</div>
+	</header>
+
+	<ui-view></ui-view>
+	
+	<footer class="navbar navbar-fixed-bottom navbar-default">
+			<div class="contact"><p>Say Hi:
+				<a href="mailto:alex@polubiec.com"><i class="fa fa-envelope"></i></a>
+				<a href="http://www.github.com/paloobi"><i class="fa fa-github"></i></a>
+				<a href="http://www.linkedin.com/in/paloobi"><i class="fa fa-linkedin"></i></a>
+				<a href="http://paloobi.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+				<a href="http://www.twitter.com/AlexPaloobi"><i class="fa fa-twitter"></i></a>
+			</p></div>
+	</footer>
+
 	</body>
 </html>

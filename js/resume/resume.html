@@ -1,0 +1,38 @@
+<div class="main resume container">
+
+  <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Places I've Been</h1>
+    </div>
+  </div>
+
+  <div class="experience">
+
+    <h2>Work Experience</h2>
+
+    <div class="job" ng-repeat="job in jobs">
+      <h4>{{ job.company }}</h4>
+      <p>{{ job.title }}, {{ job.date }} </p>
+      <ul>
+        <li ng-repeat="detail in job.details">{{ detail }}</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+    <div class="education">
+      
+      <h3>Education</h3>
+
+      <div class="school" ng-repeat="school in education">
+        <h4>{{ school.name }}</h4>
+        <p>{{ school.focus }}<span ng-show="school.degree">, {{school.degree}}</span> ({{ school.date }})</p>
+        <p>{{ school.description }}</p>
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>

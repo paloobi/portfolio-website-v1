@@ -14,7 +14,7 @@ Features
 Requirements
 ------------
 
-This project uses HTML, CSS and Twitter Bootstrap.
+This project uses Angular, HTML, CSS, Twitter Bootstrap, and customized Bootstrap templates.
 
 
 Contribute

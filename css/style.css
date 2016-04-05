@@ -1,47 +1,53 @@
-h1 {
-	font-size: 260%;
-}
-
-.header {
-	border-bottom: 2px black solid;
-}
-
-.section {
-	border-bottom: 2px darkgray solid;
-}
-
-ul {
-	line-height: 160%;
-}
-
-#skills {
-	padding-top: 2em;
-}
-
-#education {
-	padding-top: 1em;
-}
-
-#interests {
-	padding-top: .75em;
-}
-
-.job p {
-	font-style: italic;
-}
+/* ------- boilerplate and fonts --- */
 
 body {
-	font-family: 'Arimo', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+p, li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.contact p, .circle p, small {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar h1 {
+  color: white;
+}
+.navbar small {
+  color: white;
+}
+.navbar {
+  padding-right: 20px;
+}
+h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
-	font-family: 'Quicksand', sans-serif;
+  padding-top: 30px;
 }
 
-body {
-	padding-bottom: 2em;
+.photo {
+  height: 240px;
 }
 
-.col-md-1 img {
-	padding: 1em;
+.contact, .contact a {
+  color: white;
+  text-align: center;
+  font-size: 20px
+}
+
+.main {
+  margin-bottom: 60px;
+}
+
+.jumbotron {
+  padding-right: 20px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
