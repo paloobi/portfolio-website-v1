@@ -14,6 +14,7 @@ app.factory('ProjectList', function() {
         role: 'Software Engineer, Team of 3',
         date: 'April 2016',
         repo: 'https://github.com/intersim/symph',
+        demo: 'https://www.youtube.com/watch?v=2_L9xntd8Tw',
         link: 'http://www.getsymph.io',
         img: 'symph.png',
         features: [
