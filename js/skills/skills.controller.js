@@ -1,3 +1,5 @@
-app.controller('Skills', function($scope) {
+app.controller('Skills', function($scope, SkillList) {
+
+  var skills = SkillList;
 
 })
