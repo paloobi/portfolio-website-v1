@@ -17,8 +17,9 @@ app.factory('ProjectList', function() {
         link: 'http://www.getsymph.io',
         img: 'symph.png',
         features: [
-          'Built routes, models and RESTful API for compositions, tracks and loops',
-          'Engineered interface to save front­end music and visual data into the database as JSON',
+          'Built back­end routes, models and RESTful API for mixes and loops using Node, Express, Mongoose, MongoDB',
+          'Wrote RESTful API route tests for mixes and loops using Mocha, Chai & Supertest',
+          'Engineered interface for saving music and visual data from front­end Angular app into MongoDB on the back end',
           'Created Track Editor with custom Angular directives that utilize HTML5’s native Drag and Drop API'
         ],
         display: true
@@ -31,9 +32,9 @@ app.factory('ProjectList', function() {
         demo: 'http://www.fullstackacademy.com/hackathon-presentations/super-gender',
         img: 'supergender.png',
         features: [
-          'Analyzed data from 100,000+ characters from Comic Vine API to uncover gender statistics in comic books',
-          'Created custom Angular filters that use URL query strings to filter by comic publisher',
-          'Built responsive SVG charts using Chartist.js for data visualization'
+          'Analyzed data from 100,000+ characters from Comic Vine API to uncover gender trends in comic books',
+          'Built responsive SVG charts using Chartist.js for data visualization',
+          'Created custom Angular filters that use URL query strings to filter by comic publisher'
         ],
         display: true
       },
@@ -45,7 +46,7 @@ app.factory('ProjectList', function() {
         img: 'tesselmusicbot.png',
         features: [
           'Built web app that sends a photo taken by Tessel to the Microsoft Emotion API for analysis',
-          'Web app plays an appropriate YouTube video depending on emotion'
+          'Plays an appropriate YouTube video depending on emotion'
         ],
         display: true
       },
