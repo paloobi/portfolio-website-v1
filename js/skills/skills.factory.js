@@ -2,7 +2,7 @@ app.factory('SkillList', function() {
 
     return [
         {
-          name: "proficient",
+          name: "Proficient",
           skills: [
             { name: "JavaScript" },
             { name: "Python" },
