@@ -1,5 +1,3 @@
 app.controller('Skills', function($scope, SkillList) {
-
-  var skills = SkillList;
-
+  $scope.skills = SkillList;
 })
