@@ -64,6 +64,13 @@ app.factory('Education', function() {
       degree: null
     },
     {
+      name: 'Self Taught',
+      date: '2011-2014',
+      focus: "Python, JavaScript, HTML & CSS",
+      description: "Taught myself how to program, and how to build simple websites, as well as a little bit of web design.",
+      degree: null
+    },
+    {
       name: 'Bennington College',
       date: '2007 - 2011',
       focus: 'Drama & Music',
