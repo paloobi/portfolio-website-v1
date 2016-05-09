@@ -4,6 +4,7 @@
   "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
+    "setup": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

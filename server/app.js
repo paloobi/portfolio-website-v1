@@ -9,6 +9,17 @@ app.set('port', (process.env.PORT || 3000));
 
 // serve front-end files using middleware
 app.use(express.static(__dirname + '/../browser'));
+app.use(express.static(__dirname + '/../public'));
+
+// catch requests for static files
+app.use(function (req, res, next) {
+    if (path.extname(req.path).length > 0) {
+        res.status(404).end();
+    } else {
+        next(null);
+    }
+});
+
 
 // serve index of the app
 app.get('/*', function (req, res) {
