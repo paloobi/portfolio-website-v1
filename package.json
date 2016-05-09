@@ -22,6 +22,7 @@
     "bootswatch": "^3.3.6",
     "express": "^4.13.4",
     "font-awesome": "^4.5.0",
+    "morgan": "^1.7.0",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {}

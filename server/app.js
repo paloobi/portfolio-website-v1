@@ -1,12 +1,14 @@
 var express = require('express');
 var path = require('path');
+var morgan = require('morgan');
 
 var app = express();
+app.use(morgan('dev'));
 
 app.set('port', (process.env.PORT || 3000));
 
 // serve front-end files using middleware
-app.use(express.static(__dirname + '../browser'));
+app.use(express.static(__dirname + '/../browser'));
 
 // serve index of the app
 app.get('/*', function (req, res) {
