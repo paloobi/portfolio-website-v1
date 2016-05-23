@@ -6,11 +6,11 @@ A simple website containing my portfolio, which is hosted at http://alex.polubie
 Requirements
 ------------
 
-This project uses Angular, HTML, CSS, Bootstrap, and customized Bootstrap templates.
+This project uses Node, Express, Angular, HTML, CSS, Bootstrap, and customized Bootstrap templates.
 
-It requires Node.js in order to run.
+Before you can run the application, you will need to ensure Node.js is installed.
 
-To install dependencies, run:
+You can then install dependencies with the following command:
 
   `npm install`
 
