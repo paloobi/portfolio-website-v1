@@ -1,4 +1,4 @@
-paloobi.github.io
+My Portfolio
 =================
 
 A simple website containing my portfolio, which is hosted at http://alex.polubiec.com/
