@@ -1,8 +1,7 @@
 paloobi.github.io
 =================
 
-A simple website containing my online resume, which is hosted at http://paloobi.github.io
-This site can also be found at: http://alex.polubiec.com/ and http://www.alexpolubiec.com/
+A simple website containing my portfolio, which is hosted at http://alex.polubiec.com/
 
 Requirements
 ------------
