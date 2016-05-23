@@ -4,17 +4,27 @@ paloobi.github.io
 A simple website containing my online resume, which is hosted at http://paloobi.github.io
 This site can also be found at: http://alex.polubiec.com/ and http://www.alexpolubiec.com/
 
-Features
---------
-
-- Lists my previous experience & projects
-- Contains links to online profiles
-- Provides contact info
-
 Requirements
 ------------
 
-This project uses Angular, HTML, CSS, Twitter Bootstrap, and customized Bootstrap templates.
+This project uses Angular, HTML, CSS, Bootstrap, and customized Bootstrap templates.
+
+It requires Node.js in order to run.
+
+To install dependencies, run:
+
+  npm install
+
+Run the App
+-----------
+
+To start the app, first run pre-processing:
+
+  gulp build
+
+Then start up the Node application with the following command:
+
+  node server/app.js
 
 
 Contribute
