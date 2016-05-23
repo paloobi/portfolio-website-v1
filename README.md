@@ -13,18 +13,18 @@ It requires Node.js in order to run.
 
 To install dependencies, run:
 
-  npm install
+  `npm install`
 
 Run the App
 -----------
 
 To start the app, first run pre-processing:
 
-  gulp build
+  `gulp build`
 
 Then start up the Node application with the following command:
 
-  node server/app.js
+  `node server/app.js`
 
 
 Contribute
