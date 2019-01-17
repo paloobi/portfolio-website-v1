@@ -2,41 +2,36 @@ app.factory('SkillList', function() {
 
     return [
         {
-          name: "Proficient",
+          name: "Advanced",
           skills: [
             { name: "JavaScript" },
-            { name: "Python" },
-            { name: "Node" },
-            { name: "Express" },
-            { name: "RESTful APIs" },
-            { name: "MongoDB" },
-            { name: "Mongoose" },
-            { name: "Angular" },
+            { name: "React" },
+            { name: "Relay" },
+            { name: "GraphQL" },
             { name: "HTML5" },
             { name: "CSS3" },
             { name: "Git/Github" },
-            { name: "Network Protocols" },
-            { name: "TCP/IP" },
-            { name: "Software Documentation" },
-            { name: "Server Load Balancers" }
+            { name: "Integration & Unit Testing"},
+            { name: "REST APIs" },
+            { name: "Software & API Documentation" },
+            { name: "Writing" },
+            { name: "Public Speaking" },
           ]
         },
         {
-          name: "Competent",
+          name: "Proficient",
           skills: [
-            { name: "Web Security" },
+            { name: "Python" },
+            { name: "Hack/PHP" },
+            { name: "Flow" },
+            { name: "Jest" },
+            { name: "Angular 1.x" },
+            { name: "Node" },
+            { name: "Express" },
+            { name: "MongoDB" },
+            { name: "Mongoose" },
+            { name: "Network Protocols" },
             { name: "Deployment" },
-            { name: "AJAX" },
-            { name: "OAuth" },
-            { name: "jQuery" },
-            { name: "SCSS/SASS" },
-            { name: "Mocha" },
-            { name: "Chai" },
-            { name: "SuperTest" },
-            { name: "Test-­Driven Development" },
-            { name:  "Agile Software Development" },
-            { name: "Jira" },
-            { name: "Bugzilla" }
           ]
         },
         {
@@ -48,12 +43,10 @@ app.factory('SkillList', function() {
             { name: "Django" },
             { name: "SQL" },
             { name: "Tcl" },
-            { name: "PHP" },
             { name: "AWS" },
-            { name: "JSData" },
-            { name: "Gulp" },
             { name: "SVN" },
-            { name: "Bamboo" },
+            { name: "Mocha" },
+            { name: "Chai" },
           ]
         }
       ]
