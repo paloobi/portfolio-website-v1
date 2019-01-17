@@ -2,6 +2,15 @@ app.factory('Jobs', function() {
 
   return [
     {
+      company: 'Facebook',
+      title: 'Front End Engineer',
+      specialty: 'Front-end engineering for enterprise products',
+      date: '2016-present',
+      details: [
+        "Built tools to help recruiters connect authentically with people interested in Facebook.",
+      ]
+    },
+    {
       company: 'Shape Security',
       title: 'Senior Technical Writer',
       specialty: 'Tools, Automation & Information Architecture',
